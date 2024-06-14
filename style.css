@@ -1,0 +1,510 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.corfundo{
+    background-color: whitesmoke;
+    padding: 40px;
+    margin: 0;
+    padding-left: 20px;
+    width: 100%;
+}
+
+h1,h2, h3, h4, h5, h6{
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Define a fonte para títulos */
+    font-size: 35px;
+}
+
+p, a{
+    font-family: Georgia, 'Times New Roman', Times, serif;/* Define a fonte para parágrafos */
+    font-size: 18px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #cdc38e;
+}
+
+header {
+    background-color: #4f5645;
+    color: white;
+    padding: 20px; 
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px; 
+}
+nav ul li a:hover{
+    color: black;
+}
+
+.borda{
+    padding: 20px;
+}
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+ /*PRODUTOS*/
+.produto {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.produto img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5%; 
+    margin-bottom: 10px;
+}
+ main h2 {
+    text-align: center;
+    margin-top: 20px; 
+}
+.produto h3 {
+    color: black;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+.produto p {
+    color: black;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.btn-produtos {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+ /*PRODUTOS*/
+
+/*RODAPÉ*/
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rodape a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;   
+}
+.rodape p {
+    color: white;   
+}
+.rodape img {
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+/*RODAPÉ*/
+
+/*CABEÇALHO*/
+header img{
+    height: 110px;
+    width: 110px;
+    float: left;
+    position: relative;
+    top: -20px;
+}
+
+.ajustelog{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header{
+    background: #4f5645;
+    padding: 24px;
+    text-align: center;
+    color: white;
+}
+
+/*CABEÇALHO*/
+
+/*PARTE DOS FORMULARIOS - INICIO*/
+.form{
+    padding: 18px;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.form-check label{
+margin-bottom: 5px;
+}
+
+.form-check a{
+    visibility: hidden;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+
+}
+
+.form-content label{
+    display: block;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    border: 2px solid whitesmoke;
+}
+
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #4f5645;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+/*parte de quando der erro*/
+
+.form-content.erro input{
+    border-color: red;
+}
+
+.form-content.erro a{
+    color: red;
+    visibility: visible;
+}
+
+/*PARTE DOS FORMULARIOS - FIM*/
+
+/*PAGINA FEIRA - INICIO*/
+.feira {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.feira img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.feira-info {
+    flex: 1;
+}
+.feira-info h2 {
+    margin-top: 0;
+}
+
+.feira-info p{
+    margin: 0 0 10px; 
+}
+
+.feira-info button {
+    padding: 10px 20px;
+    background-color: #4c9c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url('./imagem/loc.png'); 
+    background-repeat: no-repeat;
+    background-size: 20px; 
+    background-position: left center; 
+    padding-left: 30px; 
+}
+/*PAGINA FEIRA - FIM*/
+
+/*PARTE DOS FORMULARIOS*/
+.container{
+    background-color: whitesmoke;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 600px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.container2{
+    max-width: 1000px;
+    width: 1000px;
+}
+.container h1 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.container p {
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.container a{
+    text-decoration: none;
+}
+.container .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4f5645;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.container .btn:hover {
+    background-color: green;
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*PARTE DOS FORMULARIOS*/
+
+/*TELA INICIAL/INDEX*/
+
+.telainicio {
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px; 
+    padding: 20px;
+}
+
+.telainicio h1, p, .btn {
+    margin-bottom: 10px;
+    color: black;
+}
+
+.text-inicio {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.telainicio img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.telainicio section {
+    padding: 50px 0;
+}
+
+.telainicio .btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #4c9c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.sobre-empresa {
+    text-align: center;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sobre-empresa h2 {
+    margin-bottom: 20px;
+}
+
+.texto {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px 40px;
+    text-align: center;
+    color: black; 
+    border-radius: 10px; 
+    
+}
+ .texto p{
+    margin-bottom: 20px;
+ }
+/*TELA INICIAL/INDEX*/
+
+/*VER CARRINHO*/
+ .imgcar img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    display: block;
+ }
+
+ .imgcar{
+    display: inline-block;
+    border-radius: 5%;
+    background-color: green;
+    padding: 5px;
+    border: 2px black solid;
+}
+
+.vercar{
+    background-color: red;
+    width: 100%;
+    position: fixed; 
+    bottom: 0px; 
+    padding: 10px; 
+    height: 50px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center
+}
+
+.vercar img{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+
+}
+
+.vercar {
+    font-size: 18px; 
+}
+
+/*VER CARRINHO*/
+
+/*PROJETO2*/
+
+/* Barra de pesquisa */
+.search-container {
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+#search {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td {
+    word-wrap: break-word; /* Quebra de linha para textos longos */
+}
+
+td:nth-child(1) {
+    width: 100px; /* Largura fixa para a data */
+    white-space: nowrap; /* Não quebra a linha para a data */
+}
+
+button.edit-btn, button.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button.edit-btn {
+    background-color: green;
+    margin-right: 50px;
+    padding: 5px 12px;
+}
+
+button.delete-btn {
+    background-color: red;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.button-container button {
+    flex: 1;
+}

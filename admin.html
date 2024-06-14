@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./imagem/logo.JPG" alt="logo">
+        </a>
+        <h1>Eco Mercado</h1>
+        <nav>
+            <ul>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="feiras.html">Feiras</a></li>
+                <li><a href="cadprodutos.html">Cadastrar Produtos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="ajustelog">
+        <div class="container container2">
+            <section class="header">
+                <h2>Cadastro de Usuários</h2>
+            </section>
+            <form id="form" class="form">
+                <div class="form-content">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" placeholder="Digite o seu nome...">
+                    <a>Aqui vai a mensagem de erro...</a>
+                </div>
+                <div class="form-content">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Digite o seu email...">
+                    <a>Aqui vai a mensagem de erro...</a>
+                </div>
+                <button type="button" id="add-btn">Cadastrar</button>
+                <div class="button-container">
+                    <button type="button" id="clear-btn">Limpar Campos</button>
+                    <button type="button" id="clear-all-btn">Excluir Todos</button>
+                </div>
+            </form>
+            <hr>
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Pesquisar...">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>     </th>
+                    </tr>
+                </thead>
+                <tbody id="user-list"></tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="rodape">
+        <p>Desenvolvido por: Lucas Genvigir</p>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="./imagem/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <img src="./imagem/github.jpg" alt="GitHub">
+        </a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

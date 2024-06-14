@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Eco Mercado</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="./imagem/logo.JPG" alt="logo">
+        </a>
+        <h1>Eco Mercado</h1>
+        <nav>
+            <ul>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="feiras.html">Feiras</a></li>
+                <li><a href="cadprodutos.html">Cadastrar Produtos</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main class="ajustelog">
+        <div class="container">
+            <section class="header">
+                <h2>Cadastro de Produtos</h2>
+            </section>
+
+            <form id="form" class="form">
+                <div class="form-content">
+                    <label for="username">Nome do Produto</label>
+                    <input 
+                        type="text"
+                        id="username"
+                        placeholder="Digite o nome do produto..."
+                        >
+                        <a>Aqui vai a mensagem de erro...</a>
+                </div>
+
+                <div class="form-content">
+                    <label for="number">Preço</label>
+                    <input 
+                        type="number"
+                        id="number"
+                        placeholder="Digite o preço do produto..."
+                        >
+                        <a>Aqui vai a mensagem de erro...</a>
+                </div>
+
+                <div class="form-content">
+                    <label for="imagem">Selecione uma imagem:</label>
+                    <input 
+                        type="file"
+                        id="imagem"
+                        name="imagem" 
+                        accept="image/*"
+                        >
+                        <a>Aqui vai a mensagem de erro...</a>
+                </div>
+
+                <div class="form-check">
+                    <label>Peso ou Unidade</label>
+
+                    <label for="checkboxProdutor">Peso</label>
+                    <input 
+                    type="checkbox" 
+                    id="checkboxProdutor">
+                    <a>Aqui vai a mensagem de erro...</a>
+
+                    <label for="checkboxCliente">Unidade</label>
+                    <input 
+                    type="checkbox" 
+                    id="checkboxCliente"> 
+                   <a>Aqui vai a mensagem de erro...</a>
+
+                </div>
+
+                <button type="button" onclick="window.location.href='produtos.html'">Cadastrar</button>
+
+            </form>
+
+         </div>
+    </main>
+        
+    <footer class="rodape">
+        <p>Desenvolvido por: Lucas Genvigir</p>
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+            <img src="./imagem/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <img src="./imagem/github.jpg" alt="GitHub">
+        </a>
+    </footer>
+</body>
+</html>
