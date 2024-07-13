@@ -1,1 +1,2 @@
-# Projeto-2
+Projeto realizado na disciplina Programação Web Front-End (2º Período do Curso), durante o segundo semestre de 2024. 
+A proposta era construir um site para resolver uma ou mais ODS, tendo sido selecionada a ODS 3 - Saúde e Bem-Estar, tendo como motivação a crescente demanda por alimentos orgânicos nos últimos anos, estimulada por preocupações com saúde e sustentabilidade, contrastando com os desafios enfrentados por pequenos agricultores orgânicos na comercialização de seus produtos. O projeto permitiu criar uma plataforma web que conecte diretamente esses agricultores aos consumidores de seus produtos, facilitando a venda e promoção de produtos orgânicos.
